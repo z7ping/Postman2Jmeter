@@ -58,7 +58,7 @@ pip install -e .
 5. 运行程序
 ```bash
 # 方式1：直接运行
-python src/main.py
+python src/Postman2Jmeter/main.py
 
 # 方式2：通过安装的命令运行
 Postman2Jmeter
@@ -78,24 +78,23 @@ python build_exe.py
 - Python 3.8 或更高版本
 - Windows/Linux/MacOS
 
-## 代码使用
+## 目录结构
 
-1. 安装开发依赖
-```bash
-pip install -r requirements.txt
 ```
-
-2. 运行
-```bash
-py src/main.py
-```
-
-3. 安装项目
-```bash
-pip install -e .
-```
-
-4. 打包
-```bash
-python build_exe.py
+Postman2Jmeter/
+├── src/
+│   └── Postman2Jmeter/
+│       ├── __init__.py
+│       ├── main.py
+│       ├── gui.py
+│       ├── converter.py
+│       ├── templates.py
+│       └── resources/
+│           └── icon.ico (可选)
+├── setup.py
+├── setup.cfg
+├── MANIFEST.in
+├── requirements.txt
+├── README.md
+└── build_exe.py
 ```

@@ -1,7 +1,7 @@
 import json
 import os
-from jinja2 import Template
-from templates import JMETER_TEMPLATE
+from datetime import datetime
+from .templates import JMETER_TEMPLATE
 from urllib.parse import quote, urlparse, parse_qs
 
 class Converter:

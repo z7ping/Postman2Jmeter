@@ -1,7 +1,7 @@
 import sys
 import os
 from PyQt5.QtWidgets import QApplication
-from gui import MainWindow
+from Postman2Jmeter.gui import MainWindow
 
 def main():
     app = QApplication(sys.argv)

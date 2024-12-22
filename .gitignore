@@ -1,4 +1,4 @@
-src/__pycache__/**
+src/Postman2Jmeter/__pycache__/**
 src/*.egg-info/
 build/
 dist/

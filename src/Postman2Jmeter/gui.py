@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (QMainWindow, QWidget, QVBoxLayout,
                            QFileDialog, QLabel, QButtonGroup, QLineEdit,
                            QMessageBox, QDialog)
 from PyQt5.QtCore import Qt
-from converter import convert_to_jmx
+from .converter import convert_to_jmx
 
 class TestPlanDialog(QDialog):
     def __init__(self, parent=None):
@@ -42,7 +42,7 @@ class MainWindow(QMainWindow):
         self.apipost_path = QLineEdit()
         self.output_path = QLineEdit()
         
-        # 主窗口部件
+        # ��窗口部件
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
         layout = QVBoxLayout(central_widget)
